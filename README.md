@@ -1,34 +1,29 @@
-# Rafe Symonds — Personal Website
+# Hey, I'm Rafe 👋
 
-Personal portfolio site for [Rafe Symonds](https://github.com/RafeSymonds).
+CS Master's student at the University of Michigan. I started programming in high school by publishing a game on Steam — turned out that was a more effective education than most formal ones.
 
-**Live site:** https://rafesymonds.github.io/personal-website/
+Since then: finished undergrad with a **4.0 GPA in 2.5 years**, taught algorithms as a GSI at Michigan, and spent a summer at **Microsoft** working on Azure hyperscale networking. Now I'm doing my MS while building AI agent systems that actually run autonomously — less "AI demo," more "second brain operating in the background."
 
-## About
+When I'm not at a computer, I'm playing **Rocket League** for UMich varsity esports, which keeps me honest about how long real mastery takes.
 
-Clean, minimal dark-theme portfolio. Built with plain HTML, CSS, and vanilla JS — no frameworks, no build step. GitHub Pages compatible.
+---
 
-## Deployment
+## Projects
 
-Deploys automatically to GitHub Pages via GitHub Actions on every push to `main`.
+- 🎮 **[Land of the Mage Lords](https://store.steampowered.com/app/2069220/Land_of_the_Mage_Lords/)** — Defense strategy game I built and published on Steam in high school. Free to play, rated Very Positive (67/74 reviews). Where the journey started.
+- 🤖 **[PAW Engineering](https://github.com/paw-engineering)** — Multi-agent orchestration system. Autonomous agents handle programming, research, writing, and code review — coordinated by an always-on orchestrator running 24/7.
+- 🎮 **[Drawn Together, Pulled Apart](https://rafesymonds.itch.io/drawn-together-pulled-apart)** — Two-player couch co-op puzzle game built on magnetic forces. Game Dev Capstone project.
+- 📱 **Flock** — Full-stack social event planning app. Native iOS, FastAPI backend, real-time WebSockets.
 
-To enable GitHub Pages:
-1. Go to repo Settings → Pages
-2. Set **Source** to **GitHub Actions**
-3. Push to `main` — the workflow handles the rest
+---
 
-## Local development
+## Currently
 
-```bash
-# Just open the file directly, or use any static server:
-npx serve .
-# or
-python3 -m http.server 8080
-```
+- 📚 MS CSE @ University of Michigan
+- 🧑‍🏫 GSI for EECS 281 (Data Structures & Algorithms)
+- 🏢 Interning at Microsoft — Azure hyperscale networking
+- 🚀 Building autonomous AI agent infrastructure
 
-## Stack
+---
 
-- HTML5, CSS3, Vanilla JS
-- [Inter](https://fonts.google.com/specimen/Inter) via Google Fonts
-- GitHub Actions for CI/CD
-- GitHub Pages for hosting
+**[rafesymonds.github.io/rafesymonds](https://rafesymonds.github.io/rafesymonds/)** · [LinkedIn](https://linkedin.com/in/rafesymonds) · rafesymonds@umich.edu
