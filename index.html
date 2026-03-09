@@ -4,18 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rafe Symonds</title>
-  <meta name="description" content="CSE Master's student at University of Michigan. Builder, operator, systems thinker." />
+  <meta name="description" content="MSE student in CSE at University of Michigan. Building AI agent systems that do real autonomous work." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <!-- Nav -->
-  <nav class="nav">
+  <nav class="nav" id="nav">
     <div class="nav-inner">
-      <span class="nav-name">Rafe Symonds</span>
+      <a href="#top" class="nav-name">RS</a>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -26,10 +26,17 @@
 
   <!-- Hero -->
   <section class="hero" id="top">
-    <div class="container">
-      <div class="hero-content fade-in">
+    <div class="hero-bg">
+      <div class="hero-mesh"></div>
+      <div class="hero-orb hero-orb-1"></div>
+      <div class="hero-orb hero-orb-2"></div>
+      <div class="hero-orb hero-orb-3"></div>
+    </div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="hero-badge">Available Summer 2025 · Azure @ Microsoft</div>
         <h1 class="hero-name">Rafe Symonds</h1>
-        <p class="hero-tagline">CSE Master's student at University of Michigan.<br class="br-md" /> Builder, operator, systems thinker.</p>
+        <p class="hero-tagline">Building AI agents that work while you sleep.<br class="br-md" />MSE Computer Science · University of Michigan.</p>
         <div class="hero-links">
           <a href="https://github.com/RafeSymonds" target="_blank" rel="noopener" class="hero-link">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.604-3.369-1.341-3.369-1.341-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.087.636-1.337-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.579.688.481C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
@@ -46,47 +53,43 @@
         </div>
       </div>
     </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </div>
   </section>
 
   <!-- About -->
-  <section class="section" id="about">
+  <section class="section about-section" id="about">
     <div class="container">
-      <h2 class="section-title fade-in">About</h2>
-      <div class="about-grid fade-in">
-        <div class="about-text">
-          <p>I got into programming the way I wish more people did — by shipping something. In high school, I built and published a <strong>game on Steam</strong>. Not a prototype, not a class project: a real game, rated Very Positive by players who found it on their own. That experience set the tone for everything that followed.</p>
-          <p>I moved through undergrad in <strong>2.5 years with a 4.0</strong>, not because I was racing, but because I was always chasing the next thing I wanted to build. Now I'm a first-semester MSE student in CSE at the <strong>University of Michigan</strong>, where I also teach as a GSI for <strong>EECS 281</strong> (Data Structures &amp; Algorithms) and <strong>EECS 291</strong> (Intro to Applied Data Structures &amp; Algorithms).</p>
-          <p>These days my focus has shifted to AI systems — specifically, what it looks like when agents stop being toys and start doing real work. I'm building a multi-agent orchestration platform that's running 24/7 on a Mac Mini in my room, handling programming tasks, research, writing, and code review autonomously. It's less of a side project and more of an experiment in what one person can operate with the right infrastructure.</p>
-          <p>This summer I'm at <strong>Microsoft</strong> on Azure hyperscale networking — the layer of infrastructure most people never think about until it breaks.</p>
-          <p>Outside of all that, I play <strong>Rocket League</strong> on the UMich varsity esports team. It's the one thing that keeps me honest about how long mastery actually takes.</p>
+      <div class="section-label reveal">About</div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h2 class="section-heading">From publishing games to building AI workforces.</h2>
+          <p>I started programming to ship a game to Steam in high school. That curiosity for building real, shipped things never left — it just evolved.</p>
+          <p>Now I'm an MSE student in Computer Science at the University of Michigan, where I also teach as a GSI for EECS 281 (Data Structures &amp; Algorithms) and EECS 291 (Intro to Applied Data Structures &amp; Algorithms). This summer I'm joining Microsoft's Azure hyperscale networking team.</p>
+          <p>My focus has shifted to AI systems — specifically, building agents that do real, autonomous work. Not chatbots. Not demos. Agents that run continuously, coordinate with each other, and actually get things done.</p>
         </div>
-        <div class="about-tags">
-          <div class="tag-group">
-            <span class="tag-label">Focus</span>
-            <div class="tags">
-              <span class="tag">Systems</span>
-              <span class="tag">AI Agents</span>
-              <span class="tag">Networking</span>
-              <span class="tag">Full-Stack</span>
-            </div>
+        <div class="about-stats reveal">
+          <div class="stat-card">
+            <div class="stat-icon">🤖</div>
+            <div class="stat-label">Current Focus</div>
+            <div class="stat-value">AI Agent Systems</div>
           </div>
-          <div class="tag-group">
-            <span class="tag-label">Currently</span>
-            <div class="tags">
-              <span class="tag">MSE CSE @ UMich</span>
-              <span class="tag">GSI EECS 281/291</span>
-              <span class="tag">Microsoft Intern</span>
-            </div>
+          <div class="stat-card">
+            <div class="stat-icon">🎓</div>
+            <div class="stat-label">Program</div>
+            <div class="stat-value">MSE CSE · UMich</div>
           </div>
-          <div class="tag-group">
-            <span class="tag-label">Stack</span>
-            <div class="tags">
-              <span class="tag">TypeScript</span>
-              <span class="tag">Python</span>
-              <span class="tag">Swift</span>
-              <span class="tag">C++</span>
-              <span class="tag">SQL</span>
-            </div>
+          <div class="stat-card">
+            <div class="stat-icon">☁️</div>
+            <div class="stat-label">Summer 2025</div>
+            <div class="stat-value">Microsoft Azure</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">📚</div>
+            <div class="stat-label">Teaching</div>
+            <div class="stat-value">EECS 281 &amp; 291</div>
           </div>
         </div>
       </div>
@@ -94,149 +97,248 @@
   </section>
 
   <!-- Projects -->
-  <section class="section section-alt" id="projects">
+  <section class="section projects-section" id="projects">
     <div class="container">
-      <h2 class="section-title fade-in">Projects</h2>
+      <div class="section-label reveal">Projects</div>
+      <h2 class="section-heading reveal">What I'm building.</h2>
+      <p class="section-sub reveal">Focused on AI systems, developer tools, and the occasional game.</p>
+
+      <!-- PAW Engineering — Flagship -->
+      <div class="project-showcase reveal" data-accent="blue">
+        <div class="project-showcase-bg paw-bg">
+          <svg class="showcase-pattern" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <radialGradient id="paw-grad1" cx="20%" cy="50%" r="60%">
+                <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.3"/>
+                <stop offset="100%" stop-color="#1e3a8a" stop-opacity="0"/>
+              </radialGradient>
+              <radialGradient id="paw-grad2" cx="80%" cy="30%" r="50%">
+                <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.25"/>
+                <stop offset="100%" stop-color="#4c1d95" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <rect width="800" height="400" fill="url(#paw-grad1)"/>
+            <rect width="800" height="400" fill="url(#paw-grad2)"/>
+            <!-- Agent network nodes -->
+            <circle cx="120" cy="200" r="24" fill="none" stroke="#3b82f6" stroke-width="1.5" opacity="0.6"/>
+            <circle cx="120" cy="200" r="8" fill="#3b82f6" opacity="0.8"/>
+            <circle cx="280" cy="120" r="20" fill="none" stroke="#8b5cf6" stroke-width="1.5" opacity="0.5"/>
+            <circle cx="280" cy="120" r="7" fill="#8b5cf6" opacity="0.7"/>
+            <circle cx="280" cy="280" r="20" fill="none" stroke="#06b6d4" stroke-width="1.5" opacity="0.5"/>
+            <circle cx="280" cy="280" r="7" fill="#06b6d4" opacity="0.7"/>
+            <circle cx="440" cy="160" r="20" fill="none" stroke="#10b981" stroke-width="1.5" opacity="0.5"/>
+            <circle cx="440" cy="160" r="7" fill="#10b981" opacity="0.7"/>
+            <circle cx="440" cy="240" r="20" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.5"/>
+            <circle cx="440" cy="240" r="7" fill="#f59e0b" opacity="0.7"/>
+            <circle cx="600" cy="200" r="28" fill="none" stroke="#e879f9" stroke-width="2" opacity="0.6"/>
+            <circle cx="600" cy="200" r="10" fill="#e879f9" opacity="0.8"/>
+            <!-- Connection lines -->
+            <line x1="144" y1="200" x2="260" y2="130" stroke="#3b82f6" stroke-width="1" opacity="0.3"/>
+            <line x1="144" y1="200" x2="260" y2="270" stroke="#3b82f6" stroke-width="1" opacity="0.3"/>
+            <line x1="300" y1="128" x2="420" y2="165" stroke="#8b5cf6" stroke-width="1" opacity="0.3"/>
+            <line x1="300" y1="272" x2="420" y2="245" stroke="#06b6d4" stroke-width="1" opacity="0.3"/>
+            <line x1="460" y1="165" x2="572" y2="193" stroke="#10b981" stroke-width="1" opacity="0.3"/>
+            <line x1="460" y1="235" x2="572" y2="207" stroke="#f59e0b" stroke-width="1" opacity="0.3"/>
+            <!-- Labels -->
+            <text x="120" y="235" text-anchor="middle" fill="#93c5fd" font-size="10" font-family="Inter, sans-serif" opacity="0.8">orchestrator</text>
+            <text x="280" y="107" text-anchor="middle" fill="#c4b5fd" font-size="9" font-family="Inter, sans-serif" opacity="0.7">programmer</text>
+            <text x="280" y="267" text-anchor="middle" fill="#67e8f9" font-size="9" font-family="Inter, sans-serif" opacity="0.7">researcher</text>
+            <text x="440" y="147" text-anchor="middle" fill="#6ee7b7" font-size="9" font-family="Inter, sans-serif" opacity="0.7">writer</text>
+            <text x="440" y="227" text-anchor="middle" fill="#fcd34d" font-size="9" font-family="Inter, sans-serif" opacity="0.7">reviewer</text>
+            <text x="600" y="238" text-anchor="middle" fill="#f0abfc" font-size="10" font-family="Inter, sans-serif" opacity="0.8">architect</text>
+          </svg>
+        </div>
+        <div class="project-showcase-content">
+          <div class="project-tag">Flagship · AI Infrastructure</div>
+          <h3 class="project-title">PAW Engineering</h3>
+          <p class="project-desc">A multi-agent orchestration platform running 24/7 on a Mac Mini. Five specialized agents — programmer, researcher, writer, reviewer, architect — work autonomously in parallel, coordinated by an always-on orchestrator with task queues, model routing (Claude/GPT/Codex), circuit breaking, failure recovery, and deduplication.</p>
+          <ul class="project-features">
+            <li>Isolated workspaces with shared semantic memory</li>
+            <li>Tier-based model selection (local → Opus)</li>
+            <li>5 concurrent agent types working in parallel</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://paw-engineering.com" target="_blank" rel="noopener" class="project-link project-link-primary">
+              paw-engineering.com
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+            </a>
+            <a href="https://github.com/paw-engineering" target="_blank" rel="noopener" class="project-link project-link-secondary">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.604-3.369-1.341-3.369-1.341-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.087.636-1.337-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.579.688.481C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lobs — Flagship -->
+      <div class="project-showcase project-showcase-reverse reveal" data-accent="purple">
+        <div class="project-showcase-bg lobs-bg">
+          <svg class="showcase-pattern" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <radialGradient id="lobs-grad1" cx="70%" cy="40%" r="60%">
+                <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.35"/>
+                <stop offset="100%" stop-color="#4c1d95" stop-opacity="0"/>
+              </radialGradient>
+              <radialGradient id="lobs-grad2" cx="20%" cy="70%" r="55%">
+                <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.2"/>
+                <stop offset="100%" stop-color="#0e7490" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <rect width="800" height="400" fill="url(#lobs-grad1)"/>
+            <rect width="800" height="400" fill="url(#lobs-grad2)"/>
+            <!-- Heartbeat / pulse wave -->
+            <polyline points="50,200 150,200 180,120 210,280 240,200 320,200 350,140 380,260 410,200 500,200 530,160 560,240 590,200 700,200 750,200" fill="none" stroke="#8b5cf6" stroke-width="2" opacity="0.5"/>
+            <!-- Memory nodes -->
+            <circle cx="200" cy="320" r="4" fill="#06b6d4" opacity="0.6"/>
+            <circle cx="350" cy="80" r="4" fill="#8b5cf6" opacity="0.6"/>
+            <circle cx="500" cy="340" r="4" fill="#06b6d4" opacity="0.5"/>
+            <circle cx="620" cy="70" r="4" fill="#8b5cf6" opacity="0.5"/>
+            <circle cx="700" cy="300" r="3" fill="#c084fc" opacity="0.5"/>
+            <!-- Vector search lines -->
+            <line x1="400" y1="200" x2="200" y2="320" stroke="#8b5cf6" stroke-width="0.5" opacity="0.25" stroke-dasharray="4 4"/>
+            <line x1="400" y1="200" x2="350" y2="80" stroke="#06b6d4" stroke-width="0.5" opacity="0.25" stroke-dasharray="4 4"/>
+            <line x1="400" y1="200" x2="500" y2="340" stroke="#8b5cf6" stroke-width="0.5" opacity="0.2" stroke-dasharray="4 4"/>
+            <line x1="400" y1="200" x2="620" y2="70" stroke="#06b6d4" stroke-width="0.5" opacity="0.2" stroke-dasharray="4 4"/>
+            <!-- Central orb -->
+            <circle cx="400" cy="200" r="40" fill="none" stroke="#8b5cf6" stroke-width="1.5" opacity="0.4"/>
+            <circle cx="400" cy="200" r="20" fill="none" stroke="#c084fc" stroke-width="1" opacity="0.5"/>
+            <circle cx="400" cy="200" r="6" fill="#c084fc" opacity="0.9"/>
+            <text x="400" y="257" text-anchor="middle" fill="#c4b5fd" font-size="11" font-family="Inter, sans-serif" opacity="0.7">semantic memory</text>
+          </svg>
+        </div>
+        <div class="project-showcase-content">
+          <div class="project-tag">Flagship · Personal AI Agent</div>
+          <h3 class="project-title">Lobs</h3>
+          <p class="project-desc">Always-on personal AI agent — not a chatbot. Lobs manages my PAW workforce, creates and triages tasks, handles communications across Discord, and runs 30-minute heartbeat cycles to proactively identify what needs doing. Persistent semantic memory via vector search keeps context across every session.</p>
+          <ul class="project-features">
+            <li>Persistent semantic memory with vector search</li>
+            <li>30-min heartbeats, proactive task creation</li>
+            <li>Nexus web dashboard for real-time visibility</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://lobslab.com" target="_blank" rel="noopener" class="project-link project-link-primary">
+              lobslab.com
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Secondary projects grid -->
       <div class="projects-grid">
 
-        <article class="project-card fade-in project-card--highlight">
-          <div class="project-header">
-            <div>
-              <h3 class="project-title">PAW Engineering</h3>
-              <p class="project-subtitle">Personal AI Workforce Platform</p>
+        <!-- Flock -->
+        <div class="project-card reveal" data-accent="cyan">
+          <div class="project-card-header flock-header">
+            <div class="project-card-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
             </div>
-            <a href="https://paw-engineering.com" target="_blank" rel="noopener" class="project-link" aria-label="PAW Engineering">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            <div class="project-card-tags">
+              <span class="tag">iOS</span>
+              <span class="tag">SwiftUI</span>
+            </div>
+          </div>
+          <h3 class="project-card-title">Flock</h3>
+          <p class="project-card-desc">Social event planning app with real-time everything. SwiftUI iOS frontend, FastAPI backend, WebSockets for live chat, location-based events, community management, and push notifications.</p>
+          <div class="project-tech">
+            <span>SwiftUI</span><span>FastAPI</span><span>WebSockets</span>
+          </div>
+        </div>
+
+        <!-- Drawn Together -->
+        <div class="project-card reveal" data-accent="pink">
+          <div class="project-card-media">
+            <img src="images/drawn-together-gameplay1.gif" alt="Drawn Together gameplay" class="project-card-gif" loading="lazy" />
+            <img src="images/drawn-together-gameplay2.gif" alt="Drawn Together gameplay 2" class="project-card-gif project-card-gif-hover" loading="lazy" />
+          </div>
+          <div class="project-card-body">
+            <div class="project-card-tags">
+              <span class="tag">Game Dev Capstone</span>
+              <span class="tag">Co-op</span>
+            </div>
+            <h3 class="project-card-title">Drawn Together, Pulled Apart</h3>
+            <p class="project-card-desc">Couch co-op puzzle game built around magnetic forces. Two players must work together — and against each other — to navigate increasingly complex levels.</p>
+            <div class="project-card-credits">
+              Rafe Symonds, Alex Smart, Jack Kruger, Pat Attasaranya, Chawit Vongsuly
+            </div>
+            <div class="project-links">
+              <a href="https://rafesymonds.itch.io/drawn-together-pulled-apart" target="_blank" rel="noopener" class="project-link project-link-sm">
+                Play on itch.io
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Mage Lords — full width -->
+      <div class="project-mage reveal">
+        <div class="project-mage-visual">
+          <img src="images/mage-lords-header.jpg" alt="Land of the Mage Lords header" class="mage-header-img" loading="lazy" />
+          <div class="mage-overlay"></div>
+          <div class="mage-capsule-wrap">
+            <img src="images/mage-lords-capsule.jpg" alt="Land of the Mage Lords capsule" class="mage-capsule" loading="lazy" />
+          </div>
+        </div>
+        <div class="project-mage-content">
+          <div class="project-tag">Steam · Published in High School</div>
+          <h3 class="project-title">Land of the Mage Lords</h3>
+          <div class="mage-rating">
+            <span class="rating-badge">⭐ Very Positive</span>
+            <span class="rating-count">67 of 74 reviews</span>
+          </div>
+          <p class="project-desc">A defense game I built and published on Steam while still in high school — the project that got me hooked on programming. Earned Very Positive reviews and still sells today.</p>
+          <div class="project-mage-widget">
+            <iframe src="https://store.steampowered.com/widget/2069220/" frameborder="0" width="100%" height="190" title="Land of the Mage Lords on Steam" loading="lazy"></iframe>
+          </div>
+          <div class="project-links">
+            <a href="https://store.steampowered.com/app/2069220/Land_of_the_Mage_Lords/" target="_blank" rel="noopener" class="project-link project-link-primary">
+              View on Steam
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
             </a>
           </div>
-          <p class="project-desc">What happens when you give one person a full engineering team made of AI? PAW is a multi-agent orchestration platform where specialized autonomous agents — programmer, researcher, writer, code reviewer, architect — work in parallel on real tasks, coordinated by an always-on orchestrator. The system handles its own task queues, model selection across Claude/GPT/Codex, circuit breaking, failure recovery, and deduplication. It runs 24/7 on a Mac Mini, processing tasks while I sleep. Workers operate in isolated workspaces with shared semantic memory, and the orchestrator automatically selects the right model tier (from local models to Opus) based on task complexity.</p>
-          <div class="project-highlights">
-            <span class="highlight">5 specialized agent types</span>
-            <span class="highlight">24/7 autonomous operation</span>
-            <span class="highlight">Tier-based model routing</span>
-            <span class="highlight">Circuit breaking & failure recovery</span>
-            <span class="highlight">Semantic memory across agents</span>
-          </div>
-          <div class="project-tech">
-            <span class="tech">TypeScript</span>
-            <span class="tech">SQLite</span>
-            <span class="tech">OpenClaw</span>
-            <span class="tech">Claude Opus</span>
-            <span class="tech">GPT Codex</span>
-            <span class="tech">Sonnet</span>
-          </div>
-          <div class="project-links-row">
-            <a href="https://paw-engineering.com" target="_blank" rel="noopener">paw-engineering.com</a>
-            <a href="https://github.com/paw-engineering" target="_blank" rel="noopener">GitHub</a>
-          </div>
-        </article>
+        </div>
+      </div>
 
-        <article class="project-card fade-in project-card--highlight">
-          <div class="project-header">
-            <div>
-              <h3 class="project-title">Lobs</h3>
-              <p class="project-subtitle">Always-On Personal AI Agent</p>
-            </div>
-            <a href="https://lobslab.com" target="_blank" rel="noopener" class="project-link" aria-label="Lobs Lab">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            </a>
-          </div>
-          <p class="project-desc">My personal AI executive assistant — not a chatbot, but an autonomous agent that runs continuously. Lobs manages the PAW workforce, creates and triages tasks, handles communications across Discord and other platforms, sets reminders, runs scheduled health checks, and proactively identifies work that needs doing. It has persistent semantic memory (vector search over daily logs and long-term knowledge), scheduled 30-minute heartbeats for system monitoring, and a web dashboard (Nexus) for real-time visibility into everything happening across the agent fleet. The goal: make it feel like having a competent colleague who's always working in the background.</p>
-          <div class="project-highlights">
-            <span class="highlight">Persistent semantic memory</span>
-            <span class="highlight">30-min autonomous heartbeats</span>
-            <span class="highlight">Multi-platform messaging</span>
-            <span class="highlight">Real-time Nexus dashboard</span>
-            <span class="highlight">Proactive task creation</span>
-          </div>
-          <div class="project-tech">
-            <span class="tech">OpenClaw</span>
-            <span class="tech">TypeScript</span>
-            <span class="tech">Claude Opus</span>
-            <span class="tech">Codex</span>
-            <span class="tech">React</span>
-            <span class="tech">Qdrant</span>
-          </div>
-          <div class="project-links-row">
-            <a href="https://lobslab.com" target="_blank" rel="noopener">lobslab.com</a>
-          </div>
-        </article>
+    </div>
+  </section>
 
-        <article class="project-card fade-in">
-          <div class="project-header">
-            <div>
-              <h3 class="project-title">Flock</h3>
-              <p class="project-subtitle">Social Event Planning Platform</p>
-            </div>
-          </div>
-          <p class="project-desc">Full-stack social event planning app with a native iOS frontend and Python backend. Real-time group chat over WebSockets, location-based event discovery with map integration, community management with roles and permissions, and push notifications. Designed the full data model, built the API layer, and implemented the SwiftUI frontend with offline-first CoreData persistence.</p>
-          <div class="project-tech">
-            <span class="tech">SwiftUI</span>
-            <span class="tech">CoreData</span>
-            <span class="tech">FastAPI</span>
-            <span class="tech">SQLAlchemy</span>
-            <span class="tech">WebSockets</span>
-            <span class="tech">Push Notifications</span>
-          </div>
-        </article>
-
-        <article class="project-card fade-in">
-          <div class="project-header">
-            <div>
-              <h3 class="project-title">Drawn Together, Pulled Apart</h3>
-              <p class="project-subtitle">Couch Co-op Puzzle Game · Capstone</p>
-            </div>
-            <a href="https://rafesymonds.itch.io/drawn-together-pulled-apart" target="_blank" rel="noopener" class="project-link" aria-label="Play on itch.io">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            </a>
-          </div>
-          <p class="project-desc">A two-player couch co-op puzzle game where you and a partner play as living magnets. Use magnetic forces — attract, repel, and interact — to solve cooperative physics-based puzzles. 10+ hand-crafted levels with about an hour of playtime. Built as a Game Dev Capstone project with a team of five, handling game design and core mechanics implementation.</p>
-          <div class="project-meta">with Alex Smart, Jack Kruger, Pat Attasaranya, Chawit Vongsuly</div>
-          <div class="project-tech">
-            <span class="tech">Game Dev Capstone</span>
-            <span class="tech">Co-op Multiplayer</span>
-            <span class="tech">Physics Puzzles</span>
-          </div>
-        </article>
-
-        <article class="project-card fade-in">
-          <div class="project-header">
-            <div>
-              <h3 class="project-title">Land of the Mage Lords</h3>
-              <p class="project-subtitle">Published on Steam · High School</p>
-            </div>
-            <a href="https://store.steampowered.com/app/2069220/Land_of_the_Mage_Lords/" target="_blank" rel="noopener" class="project-link" aria-label="Land of the Mage Lords on Steam">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            </a>
-          </div>
-          <p class="project-desc">Where the programming journey started. Built and published a full game on Steam while still in high school — a defense-style game where you survive waves of enemy troops and spells while summoning your own army. 50+ spells and troops, 11 unique levels, 3 difficulty modes. Free to play, rated <strong class="review-positive">Very Positive</strong> on Steam with 67 out of 74 positive reviews. Going through the entire process of designing, building, and shipping a real product to real users at that age set the trajectory for everything that followed.</p>
-          <div class="project-highlights">
-            <span class="highlight">50+ spells & troops</span>
-            <span class="highlight">11 levels</span>
-            <span class="highlight">Very Positive (91% positive)</span>
-          </div>
-          <div class="project-tech">
-            <span class="tech">Game Development</span>
-            <span class="tech">Steam</span>
-            <span class="tech">Free to Play</span>
-          </div>
-        </article>
-
+  <!-- Contact -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="contact-inner reveal">
+        <div class="section-label">Contact</div>
+        <h2 class="section-heading">Let's talk.</h2>
+        <p class="contact-sub">Interested in AI agents, multi-agent systems, or just want to connect? Reach out.</p>
+        <div class="contact-links">
+          <a href="mailto:rsymonds@umich.edu" class="contact-link contact-link-email">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 01-2.06 0L2 7"/></svg>
+            rsymonds@umich.edu
+          </a>
+          <a href="https://github.com/RafeSymonds" target="_blank" rel="noopener" class="contact-link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.604-3.369-1.341-3.369-1.341-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.087.636-1.337-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.579.688.481C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+            RafeSymonds
+          </a>
+          <a href="https://linkedin.com/in/rafe-symonds" target="_blank" rel="noopener" class="contact-link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            rafe-symonds
+          </a>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="footer" id="contact">
-    <div class="container">
-      <div class="footer-inner">
-        <div class="footer-links">
-          <a href="https://github.com/RafeSymonds" target="_blank" rel="noopener">GitHub</a>
-          <a href="https://linkedin.com/in/rafe-symonds" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="mailto:rsymonds@umich.edu">rsymonds@umich.edu</a>
-        </div>
-        <p class="footer-copy">© 2026 Rafe Symonds</p>
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-name">Rafe Symonds</span>
+      <div class="footer-links">
+        <a href="https://github.com/RafeSymonds" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/rafe-symonds" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:rsymonds@umich.edu">Email</a>
       </div>
+      <span class="footer-copy">© 2026</span>
     </div>
   </footer>
 
