@@ -9,4 +9,4 @@ CS Master's student at the University of Michigan. Right now I'm deep into AI ag
 - 🎮 **[Land of the Mage Lords](https://store.steampowered.com/app/2069220/Land_of_the_Mage_Lords/)** — Game I published on Steam in high school (Very Positive reviews)
 - 🧩 **[Drawn Together, Pulled Apart](https://rafesymonds.itch.io/drawn-together-pulled-apart)** — Couch co-op puzzle game (Game Dev Capstone)
 
-[Website](https://rafesymonds.github.io/rafesymonds/) · [LinkedIn](https://linkedin.com/in/rafesymonds) · rafesymonds@umich.edu
+[Website](https://rafesymonds.github.io/rafesymonds/) · [LinkedIn](https://linkedin.com/in/rafe-symonds) · rsymonds@umich.edu
