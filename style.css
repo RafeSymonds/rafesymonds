@@ -296,8 +296,9 @@ strong {
   box-shadow: var(--shadow);
 }
 
-/* Steam highlight card */
+/* Highlight cards span full width */
 .project-card--highlight {
+  grid-column: 1 / -1;
   border-color: rgba(88, 166, 255, 0.2);
   background: linear-gradient(135deg, var(--bg-card) 0%, rgba(31, 111, 235, 0.05) 100%);
 }
@@ -355,6 +356,34 @@ strong {
   font-size: 0.775rem;
   color: var(--text-dim);
   font-style: italic;
+}
+
+.project-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.highlight {
+  padding: 4px 10px;
+  background: rgba(92, 184, 92, 0.08);
+  border: 1px solid rgba(92, 184, 92, 0.2);
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #5cb85c;
+}
+
+.project-links-row {
+  display: flex;
+  gap: 16px;
+  padding-top: 4px;
+}
+
+.project-links-row a {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--accent);
 }
 
 .project-tech {
