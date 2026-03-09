@@ -296,6 +296,21 @@ strong {
   box-shadow: var(--shadow);
 }
 
+/* Steam highlight card */
+.project-card--highlight {
+  border-color: rgba(88, 166, 255, 0.2);
+  background: linear-gradient(135deg, var(--bg-card) 0%, rgba(31, 111, 235, 0.05) 100%);
+}
+
+.project-card--highlight:hover {
+  border-color: rgba(88, 166, 255, 0.4);
+}
+
+.review-positive {
+  color: #5cb85c;
+  font-weight: 600;
+}
+
 .project-header {
   display: flex;
   align-items: flex-start;
@@ -417,6 +432,7 @@ strong {
 .projects-grid .fade-in:nth-child(2) { transition-delay: 80ms; }
 .projects-grid .fade-in:nth-child(3) { transition-delay: 160ms; }
 .projects-grid .fade-in:nth-child(4) { transition-delay: 240ms; }
+.projects-grid .fade-in:nth-child(5) { transition-delay: 320ms; }
 
 /* ───────────────────────────────────────────────
    Responsive
