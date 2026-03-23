@@ -18,4 +18,4 @@ MSE student in CSE at the University of Michigan. Currently focused on AI agent 
 
 `Python` `C++` `SQL` `Swift` `Java` `Rust` `TypeScript` `C#`
 
-📫 rsymonds@umich.edu · [LinkedIn](https://linkedin.com/in/rafe-symonds) · [Website](https://rafesymonds.github.io)
+[LinkedIn](https://linkedin.com/in/rafe-symonds) · [Website](https://rafesymonds.github.io)
