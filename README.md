@@ -4,9 +4,9 @@ MSE student in CSE at the University of Michigan. Currently focused on AI agent 
 
 ### What I'm building
 
-🤖 **[PAW](https://paw-engineering.com)** · Multi-agent orchestration platform. Five specialized AI agents working autonomously, coordinated by an always-on orchestrator. Runs 24/7. ([GitHub](https://github.com/paw-engineering))
-
 🧠 **[Lobs](https://lobslab.com)** · Personal AI agent with semantic memory, self-directed task management, and a real-time dashboard. ([GitHub](https://github.com/lobs-ai))
+
+🤖 **[PAW](https://paw-engineering.com)** · Multi-agent orchestration platform. Five specialized AI agents working autonomously, coordinated by an always-on orchestrator. Runs 24/7. ([GitHub](https://github.com/paw-engineering))
 
 📱 **[Flock](https://github.com/RafeSymonds)** · Social media startup (co-founder & lead engineer). Swift iOS + FastAPI + WebSockets
 
