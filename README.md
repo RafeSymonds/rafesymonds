@@ -1,6 +1,6 @@
 # Hey, I'm Rafe 👋
 
-MSE student in CSE at the University of Michigan. Currently focused on AI agent development, building systems where autonomous agents do real engineering work, not demos.
+MSE student in CSE at the University of Michigan. Currently focused on AI agent development, building systems where autonomous agents do real engineering work.
 
 ### What I'm building
 
