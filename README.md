@@ -4,7 +4,7 @@ MSE student in CSE at the University of Michigan. Currently focused on AI agent 
 
 ### What I'm building
 
-🧠 **[Lobs](https://lobslab.com)** · Personal AI agent with semantic memory, self-directed task management, and a real-time dashboard. Lots of cool stuff here. All opensource. ([GitHub](https://github.com/lobs-ai))
+🧠 **[Lobs](https://lobslab.com)** · Personal AI agent with semantic memory, self-directed task management, and a real-time dashboard. Lots of cool stuff here. All open source. ([GitHub](https://github.com/lobs-ai))
 
 🤖 **[PAW](https://paw-engineering.com)** · Multi-agent orchestration platform. Five specialized AI agents working autonomously, coordinated by an always-on orchestrator. Runs 24/7. ([GitHub](https://github.com/paw-engineering))
 
