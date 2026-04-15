@@ -8,7 +8,7 @@ MSE student in CSE at the University of Michigan. GSI for EECS 281 and 291. Curr
 
 🤖 **[PAW](https://paw-engineering.com)** · AI Startup. Product version of Lobs. ([GitHub](https://github.com/paw-engineering))
 
-🏫 **[EECS 498-016: Applied Agentic Software Engineering](https://eecs498-aase.github.io)** · Co-developer. Hands-on course building autonomous AI agents that do real work. Covers agent architectures, tool use, memory systems, multi-agent orchestration, and deployment. ([GitHub](https://github.com/eecs498-aase/eecs498-aase.github.io))
+🏫 **[EECS 498-016: Applied Agentic Software Engineering](https://eecs498-aase.github.io)** · Co-developer. Hands-on course building autonomous AI agents that do real work. Covers agent architectures, tool use, memory systems, multi-agent orchestration, and deployment. Inspired by OpenClaw. ([GitHub](https://github.com/eecs498-aase/eecs498-aase.github.io))
 
 📱 **[Flock](https://github.com/RafeSymonds)** · Social media startup (co-founder & lead engineer). Swift iOS + FastAPI + WebSockets
 
