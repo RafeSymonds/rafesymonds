@@ -1,8 +1,8 @@
 # Hey, I'm Rafe 👋
 
-MSE student in CSE at the University of Michigan. GSI for EECS 281 and 291. Currently focused on AI agent development, building systems where autonomous agents do real engineering work.
+MSE student in CSE at the University of Michigan. GSI for EECS 281 and 291. Currently focused on AI agent development, building systems where autonomous agents do real engineering work. Most ai projects I'm working on are in [Lobs GitHub]([https://lobslab.com](https://github.com/lobs-ai)) to keep things together.
 
-### What I'm building
+### What I'm building 
 
 🧠 **[Lobs](https://lobslab.com)** · Personal AI agent with semantic memory, self-directed task management, and a real-time dashboard. Many agents working autonomously, coordinated by an always-on orchestrator. Lots of cool stuff here. All open source. ([GitHub](https://github.com/lobs-ai))
 
