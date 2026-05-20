@@ -8,8 +8,6 @@ Most projects I'm working on are in [Lobs GitHub](https://github.com/lobs-ai) to
 
 🧠 **[Lobs](https://lobslab.com)** · Personal AI agent with semantic memory, self-directed task management, and a real-time dashboard. Many agents working autonomously, coordinated by an always-on orchestrator. Lots of cool stuff here. All open source. ([GitHub](https://github.com/lobs-ai))
 
-🤖 **[PAW](https://paw-engineering.com)** · AI Startup. Product version of Lobs. ([GitHub](https://github.com/paw-engineering))
-
 🏫 **[EECS 498-016: Applied Agentic Software Engineering](https://eecs498-aase.github.io)** · Co-developer. Hands-on course building autonomous AI agents that do real work. Covers agent architectures, tool use, memory systems, multi-agent orchestration, and deployment. Inspired by OpenClaw 🦞. ([GitHub](https://github.com/eecs498-aase/eecs498-aase.github.io))
 
 📱 **[Flock](https://github.com/RafeSymonds)** · Social media startup (co-founder & lead engineer). Swift iOS + FastAPI + WebSockets
