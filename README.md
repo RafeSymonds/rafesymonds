@@ -2,7 +2,7 @@
 
 MSE student in CSE at the University of Michigan. GSI for EECS 281 and 291. Currently focused on AI agent development, building systems where autonomous agents do real engineering work. 
 
-Most projects I'm working on are in [Lobs GitHub](https://github.com/lobs-ai) to keep things together.
+Most projects I'm working on are in [Lobs GitHub](https://github.com/lobs-ai) to keep things together. All are open source.
 
 ### What I'm building 
 
