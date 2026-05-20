@@ -10,8 +10,6 @@ Most projects I'm working on are in [Lobs GitHub](https://github.com/lobs-ai) to
 
 🏫 **[EECS 498-016: Applied Agentic Software Engineering](https://eecs498-aase.github.io)** · Co-developer. Hands-on course building autonomous AI agents that do real work. Covers agent architectures, tool use, memory systems, multi-agent orchestration, and deployment. Inspired by OpenClaw 🦞. ([GitHub](https://github.com/eecs498-aase/eecs498-aase.github.io))
 
-📱 **[Flock](https://github.com/RafeSymonds)** · Social media startup (co-founder & lead engineer). Swift iOS + FastAPI + WebSockets
-
 🎮 **[Land of the Mage Lords](https://store.steampowered.com/app/2069220/Land_of_the_Mage_Lords/)** · Game I published on Steam in high school · 50K+ users · 93% positive
 
 🧩 **[Drawn Together, Pulled Apart](https://rafesymonds.itch.io/drawn-together-pulled-apart)** · Couch co-op puzzle game (Game Dev Capstone)
